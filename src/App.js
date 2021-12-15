@@ -27,7 +27,7 @@ function App() {
               <Films />
             </Route>
             <Route path="/Characters">
-              <Characters></Characters>
+              <Characters />
             </Route>
             <Route path="/books">
               <Books />
