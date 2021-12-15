@@ -6,7 +6,6 @@ export default function CharacterList({ char }) {
       {char.map((item) => (
         <div className="character" key={item.name}>
           <a href={item.wikiUrl}>{item.name}</a>
-          <p>{item.race}</p>
         </div>
       ))}
     </section>
