@@ -8,11 +8,12 @@ export default function Characters() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = await fetchCharacters();
+      const data = await fetchCharacters('All');
       setChar(data);
     };
+
     fetchData();
-  });
+  }, []);
   return (
     <div>
       <CharacterList char={char} />

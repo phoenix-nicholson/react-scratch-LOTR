@@ -1,12 +1,12 @@
 import React from 'react';
 
-export default function CharacterList({ characters }) {
+export default function CharacterList({ char }) {
   return (
     <section className="characters">
-      {characters.map((char) => (
-        <div className="character" key={char.name}>
-          <a href={char.wikiUrl}>{char.name}</a>
-          <p>{char.date}</p>
+      {char.map((item) => (
+        <div className="character" key={item.name}>
+          <a href={item.wikiUrl}>{item.name}</a>
+          <p>{item.race}</p>
         </div>
       ))}
     </section>
