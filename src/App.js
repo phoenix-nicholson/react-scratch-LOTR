@@ -9,6 +9,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <header>
+          <NavLink to="/" data-testid="home-link">
+            Home
+          </NavLink>
+
           <NavLink data-testid="film-link" to="/Films">
             Films
           </NavLink>
