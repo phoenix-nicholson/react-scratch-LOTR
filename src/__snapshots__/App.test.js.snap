@@ -10,6 +10,14 @@ Object {
       >
         <header>
           <a
+            aria-current="page"
+            class="active"
+            data-testid="home-link"
+            href="/"
+          >
+            Home
+          </a>
+          <a
             data-testid="film-link"
             href="/Films"
           >
@@ -36,6 +44,14 @@ Object {
       class="App"
     >
       <header>
+        <a
+          aria-current="page"
+          class="active"
+          data-testid="home-link"
+          href="/"
+        >
+          Home
+        </a>
         <a
           data-testid="film-link"
           href="/Films"
